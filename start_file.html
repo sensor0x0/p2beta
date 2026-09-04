@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal 2 Beta Library</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<h1><a href="./index.html">Portal 2 Beta Library</a></h1>
+			<p>A collection of playable Portal 2 beta and pre-release builds, taken from the <a href="https://steam2.download">Steam2 Content Server Dump</a>.</p>
+		</div>
+		<div class="contents">
+            <h1>Make a start file</h1>
+            <p>In the root folder of your extracted build, create a file called "start.bat".</p>
+            <p>Open it in Notepad, and depending on your preferred window settings, copy and paste these into it, and run the batch file.</p>
+
+            <h3>Normal start.bat</h3>
+            <code>hl2.exe -game portal2 -tempcontent</code>
+
+            <h3>Borderless window start.bat</h3>
+            <code>hl2.exe -game portal2 -tempcontent -window -noborder</code>
+
+            <h3>Windowed start.bat</h3>
+            <code>hl2.exe -game portal2 -tempcontent -window</code>
+
+            <h2>Linux users</h2>
+            <p>Linux builds suck, just use Proton for this.</p>
+            <p>Personally I would add <b>hl2.exe</b> to Steam as a Non-Steam Game (<a href="https://help.steampowered.com/en/faqs/view/4B8B-9697-2338-40EC">tutorial</a>), force your preferred Proton in Compatibility settings, then add the launch option</p>
+            <code>-game portal2 -tempcontent</code>
+		</div>
+	</div>
+</body>
+</html>
